@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
-<link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="style.css">
 <body>
     <header>
         <ul type="square" >
-            <a class="nd" href="#home"><li class="na">home</li></a>
-            <a class="nd" href="#about"><li class="na">about</li></a>
-            <a class="nd" href="#work"><li class="na">work</li></a>
-            <a class="nd" href="#resume"><li class="na">resume</li></a>
-            <a class="nd" href="#contact"><li class="na">contact</li></a>
+            <a class="nd" href="#home"><li class="na">home</a></li>
+            <a class="nd" href="#about"><li class="na">about</a></li>
+            <a class="nd" href="#work"><li class="na">work</a></li>
+            <a class="nd" href="#resume"><li class="na">resume</a></li>
+            <a class="nd" href="#contact"><li class="na">contact</a></li>
         </ul>
     </header>
     <main>
@@ -55,13 +55,25 @@
         <h5 class="ogg">contact</h5>
             <form action="">
                 <label for="">nom</label>
-                <input type="text">
+                <input class="inputs" type="text">
                 <input type="date">
                 <br>
                 <label for="">password</label>
-                <input type="password">
+                <input class="inputs" type="password">
                 <br>
-                <input type="file">
+                <input class="inputs" type="file">
+                <br>
+                <label for="">radio</label>
+                <input class="inputs" type="radio">
+                <br>
+                <h1>choose a value</h1>
+                <label for="cars">choose a car:</label>
+                <select id="cars">
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="Opel">Opel</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="">Marcedes</option>
+                </select>
             </form>
         </div>
     </main>
