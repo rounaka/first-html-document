@@ -24,6 +24,12 @@ li{
 ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
-  }
-  
+    padding: 0; 
+    }
+#img1{
+height: 300px; width: 500px;
+}
+
+#img2{
+    height: 300px; width: 600px;
+ }
